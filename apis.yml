@@ -1,0 +1,141 @@
+aid: rocket-lab
+url: https://raw.githubusercontent.com/api-evangelist/rocket-lab/refs/heads/main/apis.yml
+name: Rocket Lab
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+description: Rocket Lab Corporation (Nasdaq RKLB) is an end-to-end space company providing launch
+  services, spacecraft, satellite components, and on-orbit services. Its Electron rocket is the
+  world's most frequently launched orbital small launch vehicle; the medium-lift Neutron rocket is
+  in development. Rocket Lab Space Systems supplies Photon spacecraft, reaction wheels, star
+  trackers, solar arrays, propulsion, separation systems, and composite structures to civil,
+  national security, and commercial customers. Rocket Lab does not currently offer a public
+  developer API.
+tags:
+  - Aerospace
+  - Launch Services
+  - Space Systems
+  - Spacecraft
+  - Satellites
+  - Defense
+  - Government
+  - Public Company
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://rocketlabcorp.com/
+  - type: InvestorRelations
+    url: https://investors.rocketlabcorp.com/
+  - type: Newsroom
+    url: https://rocketlabcorp.com/updates/
+  - type: Careers
+    url: https://rocketlabcorp.com/careers/
+  - type: Contact
+    url: https://rocketlabcorp.com/contact/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/rocket-lab
+  - type: Twitter
+    url: https://twitter.com/RocketLab
+  - type: YouTube
+    url: https://www.youtube.com/user/RocketLabLtd
+  - type: Instagram
+    url: https://www.instagram.com/rocketlabusa/
+  - type: TermsOfService
+    url: https://rocketlabcorp.com/terms-of-use/
+  - type: PrivacyPolicy
+    url: https://rocketlabcorp.com/privacy-policy/
+  - type: Features
+    data:
+      - name: Electron Launch Vehicle
+        description: Small-lift orbital launch vehicle, the world's most frequently launched orbital
+          small rocket; primarily flying from Launch Complex 1 in New Zealand and Launch Complex 2
+          at Wallops, Virginia.
+      - name: Neutron Launch Vehicle
+        description: Medium-lift reusable launch vehicle in development to serve constellation
+          deployment, national security, and exploration missions.
+      - name: HASTE
+        description: Hypersonic Accelerator Suborbital Test Electron, a suborbital test vehicle
+          derived from Electron for hypersonic flight testing.
+      - name: Photon Spacecraft Platform
+        description: Integrated launch-plus-spacecraft solution providing power, propulsion, and
+          communications for LEO, lunar, and interplanetary missions.
+      - name: Satellite Components
+        description: In-house production of reaction wheels, star trackers, solar arrays and cells,
+          propulsion, radios, composite structures, tanks, and separation systems.
+      - name: Space Systems Integration
+        description: Full spacecraft design, build, and integration for civil, defense, and commercial
+          customers.
+      - name: On-Orbit Operations
+        description: Mission operations and ground network services supporting Rocket Lab and
+          customer spacecraft.
+  - type: UseCases
+    data:
+      - name: Small Satellite Deployment
+        description: Dedicated and rideshare launches for commercial constellations.
+      - name: National Security Space
+        description: Responsive launch and spacecraft for U.S. Department of Defense, Space Force,
+          and intelligence customers.
+      - name: Science and Exploration
+        description: Lunar, Mars, and deep-space missions including the CAPSTONE lunar mission and
+          ESCAPADE Mars spacecraft.
+      - name: Hypersonics Testing
+        description: HASTE suborbital test flights for U.S. Department of Defense hypersonic
+          programs.
+      - name: In-Space Manufacturing
+        description: Custom Photon spacecraft for customers such as Varda Space Industries for
+          in-space manufacturing missions.
+  - type: Programs
+    data:
+      - name: Electron
+        description: Two-stage small orbital launch vehicle, payload up to ~320 kg to LEO.
+      - name: Neutron
+        description: Reusable two-stage medium-lift launch vehicle in development, ~13,000 kg to LEO.
+      - name: Photon
+        description: Configurable small spacecraft bus derived from the Electron Kick Stage.
+      - name: Space Systems
+        description: Satellite components, subsystems, and complete spacecraft business unit.
+  - type: Customers
+    data:
+      - name: NASA
+        description: Customer for CAPSTONE lunar mission, ESCAPADE Mars mission, and various science
+          payload launches.
+      - name: U.S. Space Force
+        description: Customer for responsive launch and national security space missions.
+      - name: U.S. Department of Defense
+        description: Customer across launch, hypersonics testing, and spacecraft.
+      - name: Varda Space Industries
+        description: Photon spacecraft customer for in-space manufacturing missions.
+      - name: iQPS
+        description: Japanese SAR constellation operator with recurring Electron launches.
+  - type: Authentication
+    data:
+      - name: No Public API
+        description: Rocket Lab does not publish a public developer API or developer portal.
+          Customer engagement is through direct sales and contract awards for launch services and
+          space systems.
+  - type: Compliance
+    data:
+      - name: ITAR
+        description: International Traffic in Arms Regulations compliance for U.S. defense-related
+          exports and technical data.
+      - name: U.S. Government Contracting
+        description: Cleared facilities and personnel supporting classified national security
+          programs.
+  - type: Facilities
+    data:
+      - name: Launch Complex 1
+        description: Private orbital launch site at Mahia Peninsula, New Zealand for Electron and
+          HASTE.
+      - name: Launch Complex 2
+        description: Electron and HASTE launch site at NASA Wallops Flight Facility, Virginia.
+      - name: Launch Complex 3
+        description: Neutron launch site under construction at Wallops Flight Facility, Virginia.
+      - name: Long Beach Headquarters
+        description: Corporate headquarters and Neutron production in Long Beach, California.
+      - name: Auckland Production
+        description: Electron production and engineering in Auckland, New Zealand.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
