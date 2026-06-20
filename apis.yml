@@ -2,7 +2,7 @@ aid: rocket-lab
 url: https://raw.githubusercontent.com/api-evangelist/rocket-lab/refs/heads/main/apis.yml
 name: Rocket Lab
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 description: Rocket Lab Corporation (Nasdaq RKLB) is an end-to-end space company providing launch
   services, spacecraft, satellite components, and on-orbit services. Its Electron rocket is the
   world's most frequently launched orbital small launch vehicle; the medium-lift Neutron rocket is
